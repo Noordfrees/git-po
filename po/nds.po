@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2019-12-30 08:48+0800\n"
-"PO-Revision-Date: 2020-02-20 21:21+0100\n"
+"PO-Revision-Date: 2020-02-21 13:39+0100\n"
 "Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Low German\n"
 "Language: nds\n"
@@ -42,7 +42,7 @@ msgstr "nix"
 #: add-interactive.c:614 git-add--interactive.perl:314
 #: git-add--interactive.perl:329
 msgid "unchanged"
-msgstr "nich  ännert"
+msgstr "nich ännert"
 
 #: add-interactive.c:651 git-add--interactive.perl:643
 msgid "Update"
@@ -1214,7 +1214,7 @@ msgstr "stedenwied Warkverteeknis is nich överwacht"
 
 #: archive.c:457
 msgid "fmt"
-msgstr "fmt"
+msgstr "Fmt"
 
 #: archive.c:457
 msgid "archive format"
@@ -1251,7 +1251,7 @@ msgstr "lagert Dateien na stderr vermellen"
 
 #: archive.c:465
 msgid "store only"
-msgstr "blot lagerm"
+msgstr "blot lagern"
 
 #: archive.c:466
 msgid "compress faster"
@@ -1268,11 +1268,11 @@ msgstr "unnerstütt Lager-Formaten uplisten"
 #: archive.c:479 builtin/archive.c:91 builtin/clone.c:113 builtin/clone.c:116
 #: builtin/submodule--helper.c:1391 builtin/submodule--helper.c:1884
 msgid "repo"
-msgstr "repo"
+msgstr "Repo"
 
 #: archive.c:480 builtin/archive.c:92
 msgid "retrieve the archive from remote repository <repo>"
-msgstr "dat Lager ut de feernen Repositorium <repo> halen"
+msgstr "dat Lager ut de feernen Repositorium <Repo> halen"
 
 #: archive.c:481 builtin/archive.c:93 builtin/difftool.c:715
 #: builtin/notes.c:498
@@ -4885,204 +4885,211 @@ msgstr "ungültiger Eegenskuppen-Naam %s"
 #: pathspec.c:259
 msgid "global 'glob' and 'noglob' pathspec settings are incompatible"
 msgstr ""
+"de allgemeenen Paddangaav-Instellens 'glob' un 'noglob' verdragen sik nich"
 
 #: pathspec.c:266
 msgid ""
 "global 'literal' pathspec setting is incompatible with all other global "
 "pathspec settings"
 msgstr ""
+"de allgemeene Paddangaav 'literal' verdraggt sik nich mit all anner "
+"allgemeenen Paddangaav-Instellens"
 
 #: pathspec.c:306
 msgid "invalid parameter for pathspec magic 'prefix'"
-msgstr ""
+msgstr "ungültige Ingaav för Paddangaav-Zauberee 'prefix'"
 
 #: pathspec.c:327
 #, c-format
 msgid "Invalid pathspec magic '%.*s' in '%s'"
-msgstr ""
+msgstr "Ungültige Paddangaav-Zauberee '%.*s' in '%s'"
 
 #: pathspec.c:332
 #, c-format
 msgid "Missing ')' at the end of pathspec magic in '%s'"
-msgstr ""
+msgstr "')' fehlt am Enn vun de Paddangaav-Zauberee in '%s'"
 
 #: pathspec.c:370
 #, c-format
 msgid "Unimplemented pathspec magic '%c' in '%s'"
-msgstr ""
+msgstr "Paddangaav-Zauberee '%c' in '%s' in nich implementeert"
 
 #: pathspec.c:429
 #, c-format
 msgid "%s: 'literal' and 'glob' are incompatible"
-msgstr ""
+msgstr "%s: 'literal' un 'glob' verdragen sik nich"
 
 #: pathspec.c:442
 #, c-format
 msgid "%s: '%s' is outside repository"
-msgstr ""
+msgstr "%s: '%s' is buten de Repositorium"
 
 #: pathspec.c:516
 #, c-format
 msgid "'%s' (mnemonic: '%c')"
-msgstr ""
+msgstr "'%s' (Körtel: '%c')"
 
 #: pathspec.c:526
 #, c-format
 msgid "%s: pathspec magic not supported by this command: %s"
-msgstr ""
+msgstr "%s: Paddangaav-Zauberee vun deesem Befehl nich unnerstütt: %s"
 
 #: pathspec.c:593
 #, c-format
 msgid "pathspec '%s' is beyond a symbolic link"
-msgstr ""
+msgstr "Paddangaav '%s' is achter eenem symbolisk Verwies"
 
 #: pathspec.c:638
 #, c-format
 msgid "line is badly quoted: %s"
-msgstr ""
+msgstr "Slecht ziteerte Rieg: %s"
 
 #: pkt-line.c:92
 msgid "unable to write flush packet"
-msgstr ""
+msgstr "kann Spölen-Packje nich schrieven"
 
 #: pkt-line.c:99
 msgid "unable to write delim packet"
-msgstr ""
+msgstr "kann Ofsteken-Packje nich schrieven"
 
 #: pkt-line.c:106
 msgid "flush packet write failed"
-msgstr ""
+msgstr "Spölen-Packje to schrieven fehlslagen"
 
 #: pkt-line.c:146 pkt-line.c:232
 msgid "protocol error: impossibly long line"
-msgstr ""
+msgstr "Protokollfehler: to lange Rieg"
 
 #: pkt-line.c:162 pkt-line.c:164
 msgid "packet write with format failed"
-msgstr ""
+msgstr "Packje mit Formaat to schrieven fehlslagen"
 
 #: pkt-line.c:196
 msgid "packet write failed - data exceeds max packet size"
 msgstr ""
+"Packje to schrieven fehlslagen – Daten sünd groter as de Packje-Grött-"
+"Bovengrenz"
 
 #: pkt-line.c:203 pkt-line.c:210
 msgid "packet write failed"
-msgstr ""
+msgstr "Packje to schrieven fehlslagen"
 
 #: pkt-line.c:295
 msgid "read error"
-msgstr ""
+msgstr "Lesefehler"
 
 #: pkt-line.c:303
 msgid "the remote end hung up unexpectedly"
-msgstr ""
+msgstr "dat feerne Enn hett unverwacht dichtmaakt"
 
 #: pkt-line.c:331
 #, c-format
 msgid "protocol error: bad line length character: %.4s"
-msgstr ""
+msgstr "Protokollfehler: slechter Riegenlängde-Bookstaav: %.4s"
 
 #: pkt-line.c:341 pkt-line.c:346
 #, c-format
 msgid "protocol error: bad line length %d"
-msgstr ""
+msgstr "Protokollfehler: slechte Riegenlängde %d"
 
 #: pkt-line.c:362
 #, c-format
 msgid "remote error: %s"
-msgstr ""
+msgstr "feerner Fehler: %s"
 
 #: preload-index.c:119
 msgid "Refreshing index"
-msgstr ""
+msgstr "Verneeit Index"
 
 #: preload-index.c:138
 #, c-format
 msgid "unable to create threaded lstat: %s"
-msgstr ""
+msgstr "kann lstat-Drahd nich maken: %s"
 
 #: pretty.c:981
 msgid "unable to parse --pretty format"
-msgstr ""
+msgstr "kann --pretty-Formaat nich dörlesen"
 
 #: promisor-remote.c:23
 msgid "Remote with no URL"
-msgstr ""
+msgstr "Feernte sünner URL"
 
 #: promisor-remote.c:58
 #, c-format
 msgid "promisor remote name cannot begin with '/': %s"
-msgstr ""
+msgstr "feerner Versprecker-Naam kann nich mit '/' begünnen: %s"
 
 #: range-diff.c:75
 msgid "could not start `log`"
-msgstr ""
+msgstr "kunn `log` nich starten"
 
 #: range-diff.c:77
 msgid "could not read `log` output"
-msgstr ""
+msgstr "kunn `log`-Utgaav nich lesen"
 
 #: range-diff.c:96 sequencer.c:5163
 #, c-format
 msgid "could not parse commit '%s'"
-msgstr ""
+msgstr "kunn Kommitteeren '%s' nich dörlesen"
 
 #: range-diff.c:122
 #, c-format
 msgid "could not parse git header '%.*s'"
-msgstr ""
+msgstr "kunn git-Kopprieg '%.*s' nich dörlesen"
 
 #: range-diff.c:285
 msgid "failed to generate diff"
-msgstr ""
+msgstr "kunn Diff nich maken"
 
 #: range-diff.c:518 range-diff.c:520
 #, c-format
 msgid "could not parse log for '%s'"
-msgstr ""
+msgstr "kunn Protokoll för '%s' nich dörlesen"
 
 #: read-cache.c:680
 #, c-format
 msgid "will not add file alias '%s' ('%s' already exists in index)"
-msgstr ""
+msgstr "Datei-Decknaam '%s' word nich hentoföögt ('%s' gifft dat al im Index)"
 
 #: read-cache.c:696
 msgid "cannot create an empty blob in the object database"
-msgstr ""
+msgstr "kann in de Dingen-Datenbank keen leges Inholl-Ding maken"
 
 #: read-cache.c:718
 #, c-format
 msgid "%s: can only add regular files, symbolic links or git-directories"
 msgstr ""
+"%s: kann blot normaale Dateien, symbolisk Verwiesen un git-Verteeknisse "
+"hentofögen"
 
 #: read-cache.c:723
 #, c-format
 msgid "'%s' does not have a commit checked out"
-msgstr ""
+msgstr "'%s' hett keen Kommitteeren utscheckeert"
 
 #: read-cache.c:775
 #, c-format
 msgid "unable to index file '%s'"
-msgstr ""
+msgstr "kann Datei '%s' nich indizeren"
 
 #: read-cache.c:794
 #, c-format
 msgid "unable to add '%s' to index"
-msgstr ""
+msgstr "kann '%s' nich tum Index hentofögen"
 
 #: read-cache.c:805
 #, c-format
 msgid "unable to stat '%s'"
-msgstr ""
+msgstr "kann '%s' nich upfaten"
 
 #: read-cache.c:1325
 #, c-format
 msgid "'%s' appears as both a file and as a directory"
-msgstr ""
+msgstr "'%s' is wull eene Datei un ok een Verteeknis"
 
 #: read-cache.c:1531
 msgid "Refresh index"
-msgstr ""
+msgstr "Index vernejen"
 
 #: read-cache.c:1646
 #, c-format
@@ -5090,6 +5097,8 @@ msgid ""
 "index.version set, but the value is invalid.\n"
 "Using version %i"
 msgstr ""
+"index.version is sett, aver de Weert is ungültig.\n"
+"Bruukt Versioon %i"
 
 #: read-cache.c:1656
 #, c-format
@@ -5097,54 +5106,56 @@ msgid ""
 "GIT_INDEX_VERSION set, but the value is invalid.\n"
 "Using version %i"
 msgstr ""
+"GIT_INDEX_VERSION is sett, aver de Weert is ungültig.\n"
+"Bruukt Versioon %i"
 
 #: read-cache.c:1712
 #, c-format
 msgid "bad signature 0x%08x"
-msgstr ""
+msgstr "slechte Unnerschrift 0x%08x"
 
 #: read-cache.c:1715
 #, c-format
 msgid "bad index version %d"
-msgstr ""
+msgstr "slechte Index-Versioon %d"
 
 #: read-cache.c:1724
 msgid "bad index file sha1 signature"
-msgstr ""
+msgstr "slechte sha1-Unnerschrift för Index-Datei"
 
 #: read-cache.c:1754
 #, c-format
 msgid "index uses %.4s extension, which we do not understand"
-msgstr ""
+msgstr "Index bruukt %.4s-Verwiedern, wat wi nich verstahn"
 
 #: read-cache.c:1756
 #, c-format
 msgid "ignoring %.4s extension"
-msgstr ""
+msgstr "ignoreert %.4s-Verwiedern"
 
 #: read-cache.c:1793
 #, c-format
 msgid "unknown index entry format 0x%08x"
-msgstr ""
+msgstr "unbekantes Index-Indraag-Formaat 0x%08x"
 
 #: read-cache.c:1809
 #, c-format
 msgid "malformed name field in the index, near path '%s'"
-msgstr ""
+msgstr "ungültiges Namenfeld im Index, dicht bi Padd '%s'"
 
 #: read-cache.c:1866
 msgid "unordered stage entries in index"
-msgstr ""
+msgstr "unsorteert Klaarmaken-Indragen im Index"
 
 #: read-cache.c:1869
 #, c-format
 msgid "multiple stage entries for merged file '%s'"
-msgstr ""
+msgstr "mennig Klaarmaken-Indragen för tosamenföhrt Datei '%s'"
 
 #: read-cache.c:1872
 #, c-format
 msgid "unordered stage entries for '%s'"
-msgstr ""
+msgstr "unsorteert Klaarmaken-Indragen för '%s'"
 
 #: read-cache.c:1978 read-cache.c:2266 rerere.c:565 rerere.c:599 rerere.c:1111
 #: builtin/add.c:499 builtin/check-ignore.c:178 builtin/checkout.c:470
@@ -5152,93 +5163,95 @@ msgstr ""
 #: builtin/diff-tree.c:120 builtin/grep.c:499 builtin/mv.c:145
 #: builtin/reset.c:246 builtin/rm.c:271 builtin/submodule--helper.c:332
 msgid "index file corrupt"
-msgstr ""
+msgstr "Index-Datei kaputt"
 
 #: read-cache.c:2119
 #, c-format
 msgid "unable to create load_cache_entries thread: %s"
-msgstr ""
+msgstr "kann load_cache_entries-Drahd nich maken: %s"
 
 #: read-cache.c:2132
 #, c-format
 msgid "unable to join load_cache_entries thread: %s"
-msgstr ""
+msgstr "kann load_cache_entries-Drahd nich verbinnen: %s"
 
 #: read-cache.c:2165
 #, c-format
 msgid "%s: index file open failed"
-msgstr ""
+msgstr "%s: Index-Datei optomaken fehlslagen"
 
 #: read-cache.c:2169
 #, c-format
 msgid "%s: cannot stat the open index"
-msgstr ""
+msgstr "%s: kann de open Index nich upfaten"
 
 #: read-cache.c:2173
 #, c-format
 msgid "%s: index file smaller than expected"
-msgstr ""
+msgstr "%s: Index-Datei lütter as verwacht"
 
 #: read-cache.c:2177
 #, c-format
 msgid "%s: unable to map index file"
-msgstr ""
+msgstr "%s: kann Index-Datei nich setten"
 
 #: read-cache.c:2219
 #, c-format
 msgid "unable to create load_index_extensions thread: %s"
-msgstr ""
+msgstr "kann load_index_extensions-Drahd nich maken: %s"
 
 #: read-cache.c:2246
 #, c-format
 msgid "unable to join load_index_extensions thread: %s"
-msgstr ""
+msgstr "kann load_index_extensions-Drahd nich verbinnen: %s"
 
 #: read-cache.c:2278
 #, c-format
 msgid "could not freshen shared index '%s'"
-msgstr ""
+msgstr "kunn deelten Index '%s' nich vernejen"
 
 #: read-cache.c:2325
 #, c-format
 msgid "broken index, expect %s in %s, got %s"
-msgstr ""
+msgstr "kaputter Index, verwacht %s in %s, kriggt %s"
 
 #: read-cache.c:3021 strbuf.c:1145 wrapper.c:622 builtin/merge.c:1119
 #, c-format
 msgid "could not close '%s'"
-msgstr ""
+msgstr "kunn '%s' nich tomaken"
 
 #: read-cache.c:3124 sequencer.c:2429 sequencer.c:4069
 #, c-format
 msgid "could not stat '%s'"
-msgstr ""
+msgstr "kunn '%s' nich upfaten"
 
 #: read-cache.c:3137
 #, c-format
 msgid "unable to open git dir: %s"
-msgstr ""
+msgstr "kann git-Verteeknis nich opmaken: %s"
 
 #: read-cache.c:3149
 #, c-format
 msgid "unable to unlink: %s"
-msgstr ""
+msgstr "kann nich unverwiesen: %s"
 
 #: read-cache.c:3174
 #, c-format
 msgid "cannot fix permission bits on '%s'"
-msgstr ""
+msgstr "kann Rechten-Bits up '%s' nich ofhelpen"
 
 #: read-cache.c:3323
 #, c-format
 msgid "%s: cannot drop to stage #0"
-msgstr ""
+msgstr "%s: kann nich na Böhn #0 fallenlaten"
 
 #: rebase-interactive.c:26
 #, c-format
 msgid ""
 "unrecognized setting %s for option rebase.missingCommitsCheck. Ignoring."
 msgstr ""
+"Unbekannte Instellen %s för Instellen rebase.missingCommitsCheck word "
+"ignoreert."
 
 #: rebase-interactive.c:35
 msgid ""
@@ -5261,25 +5274,57 @@ msgid ""
 "\n"
 "These lines can be re-ordered; they are executed from top to bottom.\n"
 msgstr ""
+"\n"
+"Befehlen:\n"
+"p, pick <Kommiteeren> = deeses Kommiteeren bruken\n"
+"r, reword <Kommiteeren> = deeses Kommiteeren bruken, aver de Kommiteeren-"
+"Naricht bewarken\n"
+"e, edit <Kommiteeren> = deeses Kommiteeren bruken, aver för 't Utbetern "
+"anhollen\n"
+"s, squash <Kommiteeren> = deeses Kommiteeren bruken, aver mit de vörigen "
+"Kommitteeren vermisken\n"
+"f, fixup <Kommiteeren> = as \"squash\", aver de Protokoll-Naricht vun deesem "
+"Kommitteeren lösken\n"
+"x, exec <Befehl> = deesen Befehl (de Rest vun de Rieg) mit eener Shell "
+"utföhren\n"
+"b, break = hier anhollen (dat Umbaseeren naher mit 'git rebase --continue' "
+"wiedermaken)\n"
+"d, drop <Kommiteeren> = Kommiteeren lösken\n"
+"l, label <Naam> = de stedenwies HEAD eenen Naam geven\n"
+"t, reset <Naam> = HEAD up de geven Naam torüggsetten\n"
+"m, merge [-C <Kommiteeren> | -c <Kommiteeren>] <Naam> [# <EeneRieg>]\n"
+".       Een Tosamenföhren-Kommitteeren mit de Naricht vun de eersten "
+"Tosamenföhren-Kommitteeren\n"
+".       maken (of de eene Rieg, wenn keen eerster Kommitteeren angeven is). "
+"Bruuk\n"
+".       -c <Kommiteeren>, um de Kommitteeren-Naricht to bewarken.\n"
+"\n"
+"Deese Riegen könen umsorteert worden; se worden vun boven na unnern "
+"utföhrt.\n"
 
 #: rebase-interactive.c:56
 #, c-format
 msgid "Rebase %s onto %s (%d command)"
 msgid_plural "Rebase %s onto %s (%d commands)"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s up %s umbaseeren (%d Befehl)"
+msgstr[1] "%s up %s umbaseeren (%d Befehlen)"
 
 #: rebase-interactive.c:65 git-rebase--preserve-merges.sh:228
 msgid ""
 "\n"
 "Do not remove any line. Use 'drop' explicitly to remove a commit.\n"
 msgstr ""
+"\n"
+"Hett keene Rieg lösket. Bruuk 'drop', um een Kommitteeren utdrückelk to "
+"lösken.\n"
 
 #: rebase-interactive.c:68 git-rebase--preserve-merges.sh:232
 msgid ""
 "\n"
 "If you remove a line here THAT COMMIT WILL BE LOST.\n"
 msgstr ""
+"\n"
+"Wenn du hier eene Riege löskest, VERLÜST DU DEESEN KOMMITTEEREN.\n"
 
 #: rebase-interactive.c:74 git-rebase--preserve-merges.sh:871
 msgid ""
@@ -5289,6 +5334,11 @@ msgid ""
 "    git rebase --continue\n"
 "\n"
 msgstr ""
+"\n"
+"Du bewarkst de Ugaven-Datei för een aktives Umbaseeren, wat jüüst löppt.\n"
+"Um na de Bewarken wiedertomaken, doo:\n"
+"    git rebase --continue\n"
+"\n"
 
 #: rebase-interactive.c:79 git-rebase--preserve-merges.sh:948
 msgid ""
@@ -5296,21 +5346,24 @@ msgid ""
 "However, if you remove everything, the rebase will be aborted.\n"
 "\n"
 msgstr ""
+"\n"
+"Aver wenn du all löskest, word dat Umbaseren ofbroken.\n"
+"\n"
 
 #: rebase-interactive.c:85 git-rebase--preserve-merges.sh:955
 msgid "Note that empty commits are commented out"
-msgstr ""
+msgstr "Lege Kommitteerens sünd utkommenteert"
 
 #: rebase-interactive.c:105 rerere.c:485 rerere.c:692 sequencer.c:3536
 #: sequencer.c:3562 sequencer.c:5263 builtin/fsck.c:346 builtin/rebase.c:254
 #, c-format
 msgid "could not write '%s'"
-msgstr ""
+msgstr "kunn '%s' nich schrieven"
 
 #: rebase-interactive.c:108
 #, c-format
 msgid "could not copy '%s' to '%s'."
-msgstr ""
+msgstr "kunn '%s' nich na '%s' koperen"
 
 #: rebase-interactive.c:173
 #, c-format
@@ -5318,6 +5371,8 @@ msgid ""
 "Warning: some commits may have been dropped accidentally.\n"
 "Dropped commits (newer to older):\n"
 msgstr ""
+"Wahrschau: Eenige Kommitteerens sünd villicht ut Versehn lösket worden:\n"
+"Lösket Kommitteerens (neeiste to ollste):\n"
 
 #: rebase-interactive.c:180
 #, c-format
@@ -5329,11 +5384,18 @@ msgid ""
 "The possible behaviours are: ignore, warn, error.\n"
 "\n"
 msgstr ""
+"Um deese Naricht nich to wiesen, bruuk \"drop\", um een Kommitteeren "
+"utdrückelk to lösken.\n"
+"\n"
+"Bruuk 'git config rebase.missingCommitsCheck', um de Mass vun Warnens to "
+"ännern.\n"
+"De verlöövt Weerten sünd: ignore, warn, error.\n"
+"\n"
 
 #: refs.c:262
 #, c-format
 msgid "%s does not point to a valid object!"
-msgstr ""
+msgstr "%s wiest nich up een gültiges Ding!"
 
 #: refs.c:667
 #, c-format
