@@ -42,6 +42,10 @@ Leader:		Gwan-gyeong Mun <elongbug@gmail.com>
 Members:	Changwoo Ryu <cwryu@debian.org>
 		Sihyeon Jang <uneedsihyeon@gmail.com>
 
+Language:	nds (Low German)
+Repository:	https://github.com/Noordfrees/git-po
+Leader:		Benedikt Straub <benedikt-straub@web.de>
+
 Language:	pt_PT (Portuguese - Portugal)
 Repository:	https://github.com/vascool/git-po-pt/
 Leader:		Vasco Almeida <vascomalmeida@sapo.pt>

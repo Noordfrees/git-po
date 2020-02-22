@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2019-12-30 08:48+0800\n"
-"PO-Revision-Date: 2020-02-21 23:35+0100\n"
+"PO-Revision-Date: 2020-02-22 12:18+0100\n"
 "Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Low German\n"
 "Language: nds\n"
@@ -8583,35 +8583,35 @@ msgstr ""
 
 #: wt-status.c:1694
 msgid "On branch "
-msgstr ""
+msgstr "Up Twieg "
 
 #: wt-status.c:1701
 msgid "interactive rebase in progress; onto "
-msgstr ""
+msgstr "aktives Umbaseeren löppt; up "
 
 #: wt-status.c:1703
 msgid "rebase in progress; onto "
-msgstr ""
+msgstr "Umbaseeren löppt; up "
 
 #: wt-status.c:1713
 msgid "Not currently on any branch."
-msgstr ""
+msgstr "Jüüst up keenem Twieg."
 
 #: wt-status.c:1730
 msgid "Initial commit"
-msgstr ""
+msgstr "Eerster Kommitteeren"
 
 #: wt-status.c:1731
 msgid "No commits yet"
-msgstr ""
+msgstr "Noch keene Kommitteerens"
 
 #: wt-status.c:1745
 msgid "Untracked files"
-msgstr ""
+msgstr "Nich överwachte Dateien"
 
 #: wt-status.c:1747
 msgid "Ignored files"
-msgstr ""
+msgstr "Ignoreert Dateien"
 
 #: wt-status.c:1751
 #, c-format
@@ -8624,25 +8624,27 @@ msgstr ""
 #: wt-status.c:1757
 #, c-format
 msgid "Untracked files not listed%s"
-msgstr ""
+msgstr "Nich uplist nich överwachte Dateien %s"
 
 #: wt-status.c:1759
 msgid " (use -u option to show untracked files)"
-msgstr ""
+msgstr " (bruuk de Instellen -u, um nich överwachte Dateien to wiesen)"
 
 #: wt-status.c:1765
 msgid "No changes"
-msgstr ""
+msgstr "Keene Ännerns"
 
 #: wt-status.c:1770
 #, c-format
 msgid "no changes added to commit (use \"git add\" and/or \"git commit -a\")\n"
 msgstr ""
+"keene Änners tum Kommitteeren hentoföögt (bruuk \"git add\" un/of \"git "
+"commit -a\")\n"
 
 #: wt-status.c:1773
 #, c-format
 msgid "no changes added to commit\n"
-msgstr ""
+msgstr "keene Änners tum Kommitteeren hentoföögt\n"
 
 #: wt-status.c:1776
 #, c-format
@@ -8650,71 +8652,78 @@ msgid ""
 "nothing added to commit but untracked files present (use \"git add\" to "
 "track)\n"
 msgstr ""
+"nix tum Kommitteeren hentoföögt, aver 't gifft nich överwachte Dateien "
+"(bruuk \"git add\" tum Överwachen)\n"
 
 #: wt-status.c:1779
 #, c-format
 msgid "nothing added to commit but untracked files present\n"
 msgstr ""
+"nix tum Kommitteeren hentoföögt, aver 't gifft nich överwachte Dateien\n"
 
 #: wt-status.c:1782
 #, c-format
 msgid "nothing to commit (create/copy files and use \"git add\" to track)\n"
 msgstr ""
+"nix tum Kommitteeren (maak of kopeer Dateien un bruuk \"git add\" tum "
+"Overwachen)\n"
 
 #: wt-status.c:1785 wt-status.c:1790
 #, c-format
 msgid "nothing to commit\n"
-msgstr ""
+msgstr "nix tum Kommitteeren\n"
 
 #: wt-status.c:1788
 #, c-format
 msgid "nothing to commit (use -u to show untracked files)\n"
 msgstr ""
+"nix tum Kommitteeren (bruuk de Instellen -u, um nich överwachte Dateien to "
+"wiesen)\n"
 
 #: wt-status.c:1792
 #, c-format
 msgid "nothing to commit, working tree clean\n"
-msgstr ""
+msgstr "nix tum Kommitteeren, Warkboom schier\n"
 
 #: wt-status.c:1905
 msgid "No commits yet on "
-msgstr ""
+msgstr "Noch keene Kommitteerens up "
 
 #: wt-status.c:1909
 msgid "HEAD (no branch)"
-msgstr ""
+msgstr "KOPP (keen Twieg)"
 
 #: wt-status.c:1940
 msgid "different"
-msgstr ""
+msgstr "anners"
 
 #: wt-status.c:1942 wt-status.c:1950
 msgid "behind "
-msgstr ""
+msgstr "achter "
 
 #: wt-status.c:1945 wt-status.c:1948
 msgid "ahead "
-msgstr ""
+msgstr "vör "
 
 #. TRANSLATORS: the action is e.g. "pull with rebase"
 #: wt-status.c:2470
 #, c-format
 msgid "cannot %s: You have unstaged changes."
-msgstr ""
+msgstr "kann nich %s: Du hest nich klaarmaakt Ännerns."
 
 #: wt-status.c:2476
 msgid "additionally, your index contains uncommitted changes."
-msgstr ""
+msgstr "Un daarto hett dien Index nich komitteerte Ännerns."
 
 #: wt-status.c:2478
 #, c-format
 msgid "cannot %s: Your index contains uncommitted changes."
-msgstr ""
+msgstr "kann nich %s: Dien Index hett nich komitteerte Ännerns."
 
 #: compat/precompose_utf8.c:58 builtin/clone.c:455
 #, c-format
 msgid "failed to unlink '%s'"
-msgstr ""
+msgstr "'%s' to unverwiesen fehlslagen"
 
 #: builtin/add.c:26
 msgid "git add [<options>] [--] <pathspec>..."
