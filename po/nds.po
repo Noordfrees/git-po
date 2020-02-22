@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2019-12-30 08:48+0800\n"
-"PO-Revision-Date: 2020-02-21 13:39+0100\n"
+"PO-Revision-Date: 2020-02-21 23:35+0100\n"
 "Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Low German\n"
 "Language: nds\n"
@@ -82,7 +82,7 @@ msgstr "Torüggsetten"
 
 #: add-interactive.c:746
 msgid "Could not parse HEAD^{tree}"
-msgstr "Kunn HEAD^{tree} nich dörlesen"
+msgstr "Kunn KOPP^{tree} nich dörlesen"
 
 #: add-interactive.c:784 git-add--interactive.perl:631
 #, c-format, perl-format
@@ -140,7 +140,7 @@ msgstr "Warkboom-Tostand to de List vun klaarmaakt Ännerns hentofögen"
 
 #: add-interactive.c:985
 msgid "revert staged set of changes back to the HEAD version"
-msgstr "klaarmaakt List vun Ännerns up de HEAD-Versioon torüggsetten"
+msgstr "klaarmaakt List vun Ännerns up de KOPP-Versioon torüggsetten"
 
 #: add-interactive.c:987
 msgid "pick hunks and update selectively"
@@ -148,7 +148,7 @@ msgstr "Placken utsöken un krüsch verneeien"
 
 #: add-interactive.c:989
 msgid "view diff between HEAD and index"
-msgstr "Diff tüsken HEAD un Index wiesen"
+msgstr "Diff tüsken KOPP un Index wiesen"
 
 #: add-interactive.c:991
 msgid "add contents of untracked files to the staged set of changes"
@@ -526,7 +526,7 @@ msgid ""
 msgstr ""
 "Wahrschau: Wesselt to '%s'.\n"
 "\n"
-"Du büst nu in de Tostand vun een lössmaakt HEAD. Du kannst di umkieken,\n"
+"Du büst nu in de Tostand vun een lössmaakt KOPP. Du kannst di umkieken,\n"
 "eenfach maal so Ännerns maken un kommitteeren un diene Kommitteerens weer\n"
 "wegmaken, indeem du to een Twieg wesselst, sünner diene Twiegen to ännern.\n"
 "\n"
@@ -906,7 +906,7 @@ msgstr "sha1-Informatioon fehlt of is unnütz för Unnermoduul %s"
 #: apply.c:4100
 #, c-format
 msgid "mode change for %s, which is not in current HEAD"
-msgstr "Modus-Ännern för %s, wat nich im stedenwies HEAD liggt"
+msgstr "Modus-Ännern för %s, wat nich im stedenwies KOPP liggt"
 
 #: apply.c:4103
 #, c-format
@@ -1667,7 +1667,7 @@ msgstr "'%s' is al bi '%s' utscheckeert"
 #: branch.c:387
 #, c-format
 msgid "HEAD of working tree %s is not updated"
-msgstr "HEAD vun Warkboom %s word nich verneeit"
+msgstr "KOPP vun Warkboom %s word nich verneeit"
 
 #: bundle.c:36
 #, c-format
@@ -2345,7 +2345,7 @@ msgstr "maakt %s op"
 #: config.c:2799 builtin/config.c:328
 #, c-format
 msgid "invalid pattern: %s"
-msgstr "ungültigs Muster: %s"
+msgstr "ungültiges Muster: %s"
 
 #: config.c:2824
 #, c-format
@@ -5290,8 +5290,8 @@ msgstr ""
 "b, break = hier anhollen (dat Umbaseeren naher mit 'git rebase --continue' "
 "wiedermaken)\n"
 "d, drop <Kommiteeren> = Kommiteeren lösken\n"
-"l, label <Naam> = de stedenwies HEAD eenen Naam geven\n"
-"t, reset <Naam> = HEAD up de geven Naam torüggsetten\n"
+"l, label <Naam> = de stedenwies KOPP eenen Naam geven\n"
+"t, reset <Naam> = KOPP up de geven Naam torüggsetten\n"
 "m, merge [-C <Kommiteeren> | -c <Kommiteeren>] <Naam> [# <EeneRieg>]\n"
 ".       Een Tosamenföhren-Kommitteeren mit de Naricht vun de eersten "
 "Tosamenföhren-Kommitteeren\n"
@@ -5400,412 +5400,413 @@ msgstr "%s wiest nich up een gültiges Ding!"
 #: refs.c:667
 #, c-format
 msgid "ignoring dangling symref %s"
-msgstr ""
+msgstr "ignoreert symlink %s sünner Stüür"
 
 #: refs.c:669 ref-filter.c:2098
 #, c-format
 msgid "ignoring broken ref %s"
-msgstr ""
+msgstr "ignoreert kaputten Verwies %s"
 
 #: refs.c:804
 #, c-format
 msgid "could not open '%s' for writing: %s"
-msgstr ""
+msgstr "kunn '%s' nich tum Schrieven opmaken: %s"
 
 #: refs.c:814 refs.c:865
 #, c-format
 msgid "could not read ref '%s'"
-msgstr ""
+msgstr "kunn Verwies '%s' nich lesen"
 
 #: refs.c:820
 #, c-format
 msgid "ref '%s' already exists"
-msgstr ""
+msgstr "Verwies '%s' gifft dat al"
 
 #: refs.c:825
 #, c-format
 msgid "unexpected object ID when writing '%s'"
-msgstr ""
+msgstr "unverwacht Ding-Tekentahl bi'm Schrieven vun '%s'"
 
 #: refs.c:833 sequencer.c:405 sequencer.c:2793 sequencer.c:2997
 #: sequencer.c:3011 sequencer.c:3269 sequencer.c:5179 strbuf.c:1142
 #: wrapper.c:620
 #, c-format
 msgid "could not write to '%s'"
-msgstr ""
+msgstr "kunn nich na '%s' schrieven"
 
 #: refs.c:860 strbuf.c:1140 wrapper.c:188 wrapper.c:358 builtin/am.c:714
 #: builtin/rebase.c:1031
 #, c-format
 msgid "could not open '%s' for writing"
-msgstr ""
+msgstr "kunn '%s' nich tum Schrieven opmaken"
 
 #: refs.c:867
 #, c-format
 msgid "unexpected object ID when deleting '%s'"
-msgstr ""
+msgstr "unverwacht Ding-Tekentahl bi'm Lösken vun '%s'"
 
 #: refs.c:998
 #, c-format
 msgid "log for ref %s has gap after %s"
-msgstr ""
+msgstr "Protokoll för Verwies %s hett Gatt achter %s"
 
 #: refs.c:1004
 #, c-format
 msgid "log for ref %s unexpectedly ended on %s"
-msgstr ""
+msgstr "Protokoll för Verwies %s ennt unverwacht bi %s"
 
 #: refs.c:1063
 #, c-format
 msgid "log for %s is empty"
-msgstr ""
+msgstr "Protokoll för %s is leeg"
 
 #: refs.c:1155
 #, c-format
 msgid "refusing to update ref with bad name '%s'"
-msgstr ""
+msgstr "will Verwies mit de slechten Naam '%s' nich vernejen"
 
 #: refs.c:1231
 #, c-format
 msgid "update_ref failed for ref '%s': %s"
-msgstr ""
+msgstr "update_ref för Verwies '%s' fehlslagen: %s"
 
 #: refs.c:2023
 #, c-format
 msgid "multiple updates for ref '%s' not allowed"
-msgstr ""
+msgstr "mennig Vernejens för Verwies '%s' verboden"
 
 #: refs.c:2055
 msgid "ref updates forbidden inside quarantine environment"
-msgstr ""
+msgstr "Verwies-Vernejens in Sekerheids-Kuntrei verboden"
 
 #: refs.c:2151 refs.c:2181
 #, c-format
 msgid "'%s' exists; cannot create '%s'"
-msgstr ""
+msgstr "'%s' gifft 't al; kann '%s' nich maken"
 
 #: refs.c:2157 refs.c:2192
 #, c-format
 msgid "cannot process '%s' and '%s' at the same time"
-msgstr ""
+msgstr "kann '%s' un '%s' nich togliek verarbeiden"
 
 #: refs/files-backend.c:1234
 #, c-format
 msgid "could not remove reference %s"
-msgstr ""
+msgstr "kunn Verwies %s nich lösken"
 
 #: refs/files-backend.c:1248 refs/packed-backend.c:1541
 #: refs/packed-backend.c:1551
 #, c-format
 msgid "could not delete reference %s: %s"
-msgstr ""
+msgstr "kunn Verwies %s nich lösken: %s"
 
 #: refs/files-backend.c:1251 refs/packed-backend.c:1554
 #, c-format
 msgid "could not delete references: %s"
-msgstr ""
+msgstr "kunn Verwiesen nich lösken: %s"
 
 #: refspec.c:137
 #, c-format
 msgid "invalid refspec '%s'"
-msgstr ""
+msgstr "ungültige Verwies-Angaav '%s'"
 
 #: ref-filter.c:42 wt-status.c:1938
 msgid "gone"
-msgstr ""
+msgstr "weg"
 
 #: ref-filter.c:43
 #, c-format
 msgid "ahead %d"
-msgstr ""
+msgstr "vör %d"
 
 #: ref-filter.c:44
 #, c-format
 msgid "behind %d"
-msgstr ""
+msgstr "achter %d"
 
 #: ref-filter.c:45
 #, c-format
 msgid "ahead %d, behind %d"
-msgstr ""
+msgstr "vör %d, achter %d"
 
 #: ref-filter.c:165
 #, c-format
 msgid "expected format: %%(color:<color>)"
-msgstr ""
+msgstr "verwacht Formaat: %%(color:<Farv>)"
 
 #: ref-filter.c:167
 #, c-format
 msgid "unrecognized color: %%(color:%s)"
-msgstr ""
+msgstr "unverwacht Farv: %%(color:%s)"
 
 #: ref-filter.c:189
 #, c-format
 msgid "Integer value expected refname:lstrip=%s"
-msgstr ""
+msgstr "Tahlweert verwacht in refname:lstrip=%s"
 
 #: ref-filter.c:193
 #, c-format
 msgid "Integer value expected refname:rstrip=%s"
-msgstr ""
+msgstr "Tahlweert verwacht in refname:rstrip=%s"
 
 #: ref-filter.c:195
 #, c-format
 msgid "unrecognized %%(%s) argument: %s"
-msgstr ""
+msgstr "unbekannte %%(%s)-Ingaav: %s"
 
 #: ref-filter.c:250
 #, c-format
 msgid "%%(objecttype) does not take arguments"
-msgstr ""
+msgstr "%%(objecttype) verlöövt keene Ingaav"
 
 #: ref-filter.c:272
 #, c-format
 msgid "unrecognized %%(objectsize) argument: %s"
-msgstr ""
+msgstr "unbekannte %%(objectsize)-Ingaav: %s"
 
 #: ref-filter.c:280
 #, c-format
 msgid "%%(deltabase) does not take arguments"
-msgstr ""
+msgstr "%%(deltabase) verlöövt keene Ingaav"
 
 #: ref-filter.c:292
 #, c-format
 msgid "%%(body) does not take arguments"
-msgstr ""
+msgstr "%%(body) verlöövt keene Ingaav"
 
 #: ref-filter.c:301
 #, c-format
 msgid "%%(subject) does not take arguments"
-msgstr ""
+msgstr "%%(subject) verlöövt keene Ingaav"
 
 #: ref-filter.c:323
 #, c-format
 msgid "unknown %%(trailers) argument: %s"
-msgstr ""
+msgstr "unbekannte %%(trailers)-Ingaav: %s"
 
 #: ref-filter.c:352
 #, c-format
 msgid "positive value expected contents:lines=%s"
-msgstr ""
+msgstr "verwacht Tahlweert gröter as null in contents:lines=%s"
 
 #: ref-filter.c:354
 #, c-format
 msgid "unrecognized %%(contents) argument: %s"
-msgstr ""
+msgstr "unbekannte %%(contents)-Ingaav: %s"
 
 #: ref-filter.c:369
 #, c-format
 msgid "positive value expected objectname:short=%s"
-msgstr ""
+msgstr "verwacht Tahlweert gröter as null in objectname:short=%s"
 
 #: ref-filter.c:373
 #, c-format
 msgid "unrecognized %%(objectname) argument: %s"
-msgstr ""
+msgstr "unbekannte %%(objectname)-Ingaav: %s"
 
 #: ref-filter.c:403
 #, c-format
 msgid "expected format: %%(align:<width>,<position>)"
-msgstr ""
+msgstr "verwacht Formaat: %%(align:<Breddt>,<Stee>)"
 
 #: ref-filter.c:415
 #, c-format
 msgid "unrecognized position:%s"
-msgstr ""
+msgstr "unbekannte Stee: %s"
 
 #: ref-filter.c:422
 #, c-format
 msgid "unrecognized width:%s"
-msgstr ""
+msgstr "unbekannte Breddt: %s"
 
 #: ref-filter.c:431
 #, c-format
 msgid "unrecognized %%(align) argument: %s"
-msgstr ""
+msgstr "unbekannte %%(align)-Ingaav: %s"
 
 #: ref-filter.c:439
 #, c-format
 msgid "positive width expected with the %%(align) atom"
-msgstr ""
+msgstr "verwacht Breddt gröter as null mit de %%(align)-Atoom"
 
 #: ref-filter.c:457
 #, c-format
 msgid "unrecognized %%(if) argument: %s"
-msgstr ""
+msgstr "unbekannte %%(if)-Ingaav: %s"
 
 #: ref-filter.c:559
 #, c-format
 msgid "malformed field name: %.*s"
-msgstr ""
+msgstr "ungültiger Feldnaam: %.*s"
 
 #: ref-filter.c:586
 #, c-format
 msgid "unknown field name: %.*s"
-msgstr ""
+msgstr "unbekannter Feldnaam: %.*s"
 
 #: ref-filter.c:590
 #, c-format
 msgid ""
 "not a git repository, but the field '%.*s' requires access to object data"
 msgstr ""
+"keen git-Repositorium, aver dat Feld '%.*s' bruukt Togriep up Ding-Daten"
 
 #: ref-filter.c:714
 #, c-format
 msgid "format: %%(if) atom used without a %%(then) atom"
-msgstr ""
+msgstr "format: %%(if)-Atoom sünner %%(then)-Atoom bruukt"
 
 #: ref-filter.c:777
 #, c-format
 msgid "format: %%(then) atom used without an %%(if) atom"
-msgstr ""
+msgstr "format: %%(then)-Atoom sünner %%(if)-Atoom bruukt"
 
 #: ref-filter.c:779
 #, c-format
 msgid "format: %%(then) atom used more than once"
-msgstr ""
+msgstr "format: %%(then)-Atoom mehr as een maal bruukt"
 
 #: ref-filter.c:781
 #, c-format
 msgid "format: %%(then) atom used after %%(else)"
-msgstr ""
+msgstr "format: %%(then)-Atoom achter %%(else) bruukt"
 
 #: ref-filter.c:809
 #, c-format
 msgid "format: %%(else) atom used without an %%(if) atom"
-msgstr ""
+msgstr "format: %%(else)-Atoom sünner %%(if)-Atoom bruukt"
 
 #: ref-filter.c:811
 #, c-format
 msgid "format: %%(else) atom used without a %%(then) atom"
-msgstr ""
+msgstr "format: %%(else)-Atoom sünner %%(then)-Atoom bruukt"
 
 #: ref-filter.c:813
 #, c-format
 msgid "format: %%(else) atom used more than once"
-msgstr ""
+msgstr "format: %%(else)-Atoom mehr as een maal bruukt"
 
 #: ref-filter.c:828
 #, c-format
 msgid "format: %%(end) atom used without corresponding atom"
-msgstr ""
+msgstr "format: %%(end)-Atoom sünner passendes Atoom bruukt"
 
 #: ref-filter.c:885
 #, c-format
 msgid "malformed format string %s"
-msgstr ""
+msgstr "ungültiger Formaat-Text %s"
 
 #: ref-filter.c:1488
 #, c-format
 msgid "no branch, rebasing %s"
-msgstr ""
+msgstr "keen Twieg, baseert %s um"
 
 #: ref-filter.c:1491
 #, c-format
 msgid "no branch, rebasing detached HEAD %s"
-msgstr ""
+msgstr "keen Twieg, baseert lösslaten KOPP %s um"
 
 #: ref-filter.c:1494
 #, c-format
 msgid "no branch, bisect started on %s"
-msgstr ""
+msgstr "keen Twieg, begünnt Halberen up %s"
 
 #: ref-filter.c:1504
 msgid "no branch"
-msgstr ""
+msgstr "keen Twieg"
 
 #: ref-filter.c:1540 ref-filter.c:1749
 #, c-format
 msgid "missing object %s for %s"
-msgstr ""
+msgstr "Ding %s för %s fehlt"
 
 #: ref-filter.c:1550
 #, c-format
 msgid "parse_object_buffer failed on %s for %s"
-msgstr ""
+msgstr "parse_object_buffer up %s för %s fehlslagen"
 
 #: ref-filter.c:2004
 #, c-format
 msgid "malformed object at '%s'"
-msgstr ""
+msgstr "ungültiges Ding bi '%s'"
 
 #: ref-filter.c:2093
 #, c-format
 msgid "ignoring ref with broken name %s"
-msgstr ""
+msgstr "ignoreert Verwies mit kaputten Naam %s"
 
 #: ref-filter.c:2389
 #, c-format
 msgid "format: %%(end) atom missing"
-msgstr ""
+msgstr "format: %%(end)-Atoom fehlt"
 
 #: ref-filter.c:2489
 #, c-format
 msgid "option `%s' is incompatible with --merged"
-msgstr ""
+msgstr "Instellen '%s' verdraggt sik nich mit --merged"
 
 #: ref-filter.c:2492
 #, c-format
 msgid "option `%s' is incompatible with --no-merged"
-msgstr ""
+msgstr "Instellen '%s' verdraggt sik nich mit --no-merged"
 
 #: ref-filter.c:2502
 #, c-format
 msgid "malformed object name %s"
-msgstr ""
+msgstr "ungültiger Dingnaam %s"
 
 #: ref-filter.c:2507
 #, c-format
 msgid "option `%s' must point to a commit"
-msgstr ""
+msgstr "Instellen '%s' mutt up een Kommitteeren verwiesen"
 
 #: remote.c:366
 #, c-format
 msgid "config remote shorthand cannot begin with '/': %s"
-msgstr ""
+msgstr "Feerntenkörtel-Instellen kann nich mit '/' begünnen: %s"
 
 #: remote.c:413
 msgid "more than one receivepack given, using the first"
-msgstr ""
+msgstr "mehr as een Empfänger-Packje geven, bruukt dat eerste"
 
 #: remote.c:421
 msgid "more than one uploadpack given, using the first"
-msgstr ""
+msgstr "mehr as een Hoogladen-Packje geven, bruukt dat eerste"
 
 #: remote.c:611
 #, c-format
 msgid "Cannot fetch both %s and %s to %s"
-msgstr ""
+msgstr "kann nich %s un ok %s na %s halen"
 
 #: remote.c:615
 #, c-format
 msgid "%s usually tracks %s, not %s"
-msgstr ""
+msgstr "%s gaht normaal na %s un nich na %s na"
 
 #: remote.c:619
 #, c-format
 msgid "%s tracks both %s and %s"
-msgstr ""
+msgstr "%s gaht na %s un ok na %s na"
 
 #: remote.c:687
 #, c-format
 msgid "key '%s' of pattern had no '*'"
-msgstr ""
+msgstr "Slötel '%s' vun Muster sünner '*'"
 
 #: remote.c:697
 #, c-format
 msgid "value '%s' of pattern has no '*'"
-msgstr ""
+msgstr "Weert '%s' vun Muster sünner '*'"
 
 #: remote.c:1003
 #, c-format
 msgid "src refspec %s does not match any"
-msgstr ""
+msgstr "Quell-Verwiesangaav %s passt up nix"
 
 #: remote.c:1008
 #, c-format
 msgid "src refspec %s matches more than one"
-msgstr ""
+msgstr "Quell-Verwiesangaav %s passt up mehr as eens"
 
 #. TRANSLATORS: "matches '%s'%" is the <dst> part of "git push
 #. <remote> <src>:<dst>" push, and "being pushed ('%s')" is
@@ -5824,6 +5825,17 @@ msgid ""
 "\n"
 "Neither worked, so we gave up. You must fully qualify the ref."
 msgstr ""
+"Dat Enn, wat du angeven hest, is keen kumpleeter Verwiesnaam\n"
+"(wat to'n Bispoöl mit \"refs/\" begünnt). Wi versöken,\n"
+"uttofinnen, wat du meenst, indeem wi dat doon:\n"
+"\n"
+"– Na eenem Verwies söken, wat up de feernen Sied up '%s' passt.\n"
+"– Nakieken, of de <Quell>, wat schuuvt word ('%s'), een Verwies\n"
+"  in \"refs/{heads,tags}/\" is. Wenn jau, dann fögen wi up de\n"
+"  feernen Sied een \"refs/{heads,tags}/\"-Prefix, wat passt, hento.\n"
+"\n"
+"Nix daarvun hett klappt, also hebben wi upgeven.\n"
+"Du muttst de Verwies kumpleet angeven."
 
 #: remote.c:1043
 #, c-format
@@ -5832,6 +5844,9 @@ msgid ""
 "Did you mean to create a new branch by pushing to\n"
 "'%s:refs/heads/%s'?"
 msgstr ""
+"De <Quell>-Deel vun de Verwiesangaav is een\n"
+"Kommitteeren-Ding. Hest du eenen nejen Twieg maken\n"
+"wullt, indeem du na '%s:refs/heads/%s' schuuvst?"
 
 #: remote.c:1048
 #, c-format
@@ -5840,6 +5855,9 @@ msgid ""
 "Did you mean to create a new tag by pushing to\n"
 "'%s:refs/tags/%s'?"
 msgstr ""
+"De <Quell>-Deel vun de Verwiesangaav is een\n"
+"Etikett-Ding. Hest du een nejes Etikett maken\n"
+"wullt, indeem du na '%s:refs/tags/%s' schuuvst?"
 
 #: remote.c:1053
 #, c-format
@@ -5848,6 +5866,9 @@ msgid ""
 "Did you mean to tag a new tree by pushing to\n"
 "'%s:refs/tags/%s'?"
 msgstr ""
+"De <Quell>-Deel vun de Verwiesangaav is een\n"
+"Doom-Ding. Hest du eenen nejen Boom etiketteren\n"
+"wullt, indeem du na '%s:refs/tags/%s' schuuvst?"
 
 #: remote.c:1058
 #, c-format
@@ -5856,113 +5877,117 @@ msgid ""
 "Did you mean to tag a new blob by pushing to\n"
 "'%s:refs/tags/%s'?"
 msgstr ""
+"De <Quell>-Deel vun de Verwiesangaav is een\n"
+"Inholl-Dingen-Ding. Hest du een nejes\n"
+"Inholl-Ding etiketteren wullt, indeem\n"
+"du na '%s:refs/tags/%s' schuuvst?"
 
 #: remote.c:1094
 #, c-format
 msgid "%s cannot be resolved to branch"
-msgstr ""
+msgstr "%s kann nich to eenem Twieg uplösst worden"
 
 #: remote.c:1105
 #, c-format
 msgid "unable to delete '%s': remote ref does not exist"
-msgstr ""
+msgstr "kann '%s' nich lösken: de feernen Verwies gifft dat nich"
 
 #: remote.c:1117
 #, c-format
 msgid "dst refspec %s matches more than one"
-msgstr ""
+msgstr "Enn-Verwiesangaav %s passt up mehr as eens"
 
 #: remote.c:1124
 #, c-format
 msgid "dst ref %s receives from more than one src"
-msgstr ""
+msgstr "Enn-Verwiesangaav %s kriggt vun mehr as eener Quell"
 
 #: remote.c:1627 remote.c:1728
 msgid "HEAD does not point to a branch"
-msgstr ""
+msgstr "KOPP wiest nich up eenen Twieg"
 
 #: remote.c:1636
 #, c-format
 msgid "no such branch: '%s'"
-msgstr ""
+msgstr "keen sülker Twieg: '%s'"
 
 #: remote.c:1639
 #, c-format
 msgid "no upstream configured for branch '%s'"
-msgstr ""
+msgstr "keen Ollerntwieg för Twieg '%s' sett"
 
 #: remote.c:1645
 #, c-format
 msgid "upstream branch '%s' not stored as a remote-tracking branch"
-msgstr ""
+msgstr "Ollerntwieg '%s' nich as Feern-Nagahn-Twieg lagert"
 
 #: remote.c:1660
 #, c-format
 msgid "push destination '%s' on remote '%s' has no local tracking branch"
-msgstr ""
+msgstr "Schuuv-Enn '%s' in Feernte '%s' hett keenen stedenwies Nagahn-Twieg"
 
 #: remote.c:1672
 #, c-format
 msgid "branch '%s' has no remote for pushing"
-msgstr ""
+msgstr "Twieg '%s' hett in de Feernte nix tum Henschuven"
 
 #: remote.c:1682
 #, c-format
 msgid "push refspecs for '%s' do not include '%s'"
-msgstr ""
+msgstr "in de Schuuv-Verwiesangaven för '%s' is '%s' nich drin"
 
 #: remote.c:1695
 msgid "push has no destination (push.default is 'nothing')"
-msgstr ""
+msgstr "Schuuv sünner Enn (push.default is 'nix')"
 
 #: remote.c:1717
 msgid "cannot resolve 'simple' push to a single destination"
-msgstr ""
+msgstr "kann 'simple'-Schuuv to blot eenem Enn nich reselveren"
 
 #: remote.c:1843
 #, c-format
 msgid "couldn't find remote ref %s"
-msgstr ""
+msgstr "kunn feernen Verwies %s nich finnen"
 
 #: remote.c:1856
 #, c-format
 msgid "* Ignoring funny ref '%s' locally"
-msgstr ""
+msgstr "* Komisker Verwies '%s' word stedenwies ignoreert"
 
 #: remote.c:2019
 #, c-format
 msgid "Your branch is based on '%s', but the upstream is gone.\n"
-msgstr ""
+msgstr "Dien Twieg baseert up '%s', aver de Ollerntwieg is weg.\n"
 
 #: remote.c:2023
 msgid "  (use \"git branch --unset-upstream\" to fixup)\n"
-msgstr ""
+msgstr "  (bruuk \"git branch --unset-upstream\" tum Ofhelpen)\n"
 
 #: remote.c:2026
 #, c-format
 msgid "Your branch is up to date with '%s'.\n"
-msgstr ""
+msgstr "Dien Twieg is up de sülven Stand as '%s'.\n"
 
 #: remote.c:2030
 #, c-format
 msgid "Your branch and '%s' refer to different commits.\n"
-msgstr ""
+msgstr "Dien Twieg un '%s' verwiesen up verschedene Kommitteerens.\n"
 
 #: remote.c:2033
 #, c-format
 msgid "  (use \"%s\" for details)\n"
-msgstr ""
+msgstr "  (bruuk \"%s\" för mehr Informationen)\n"
 
 #: remote.c:2037
 #, c-format
 msgid "Your branch is ahead of '%s' by %d commit.\n"
 msgid_plural "Your branch is ahead of '%s' by %d commits.\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Dien Twieg is vör '%s' um %d Kommitteeren vörut.\n"
+msgstr[1] "Dien Twieg is vör '%s' um %d Kommitteerens vörut.\n"
 
 #: remote.c:2043
 msgid "  (use \"git push\" to publish your local commits)\n"
-msgstr ""
+msgstr "  (bruuk \"git push\", um diene stedenwies Kommitteerens to sennen)\n"
 
 #: remote.c:2046
 #, c-format
@@ -5970,11 +5995,15 @@ msgid "Your branch is behind '%s' by %d commit, and can be fast-forwarded.\n"
 msgid_plural ""
 "Your branch is behind '%s' by %d commits, and can be fast-forwarded.\n"
 msgstr[0] ""
+"Dien Twieg is achter '%s' um %d Kommitteeren torügg un kann vörspoolt "
+"worden.\n"
 msgstr[1] ""
+"Dien Twieg is achter '%s' um %d Kommitteerens torügg un kann vörspoolt "
+"worden.\n"
 
 #: remote.c:2054
 msgid "  (use \"git pull\" to update your local branch)\n"
-msgstr ""
+msgstr "  (bruuk \"git pull\", um de stedenwies Twieg to vernejen)\n"
 
 #: remote.c:2057
 #, c-format
@@ -5985,79 +6014,84 @@ msgid_plural ""
 "Your branch and '%s' have diverged,\n"
 "and have %d and %d different commits each, respectively.\n"
 msgstr[0] ""
+"Dien Twieg un '%s' hebben sik deelt un hebben\n"
+"je %d un %d verschedenen Kommitteeren.\n"
 msgstr[1] ""
+"Dien Twieg un '%s' hebben sik deelt un hebben\n"
+"je %d un %d verschedene Kommitteerens.\n"
 
 #: remote.c:2067
 msgid "  (use \"git pull\" to merge the remote branch into yours)\n"
 msgstr ""
+"  (bruuk \"git pull\", um de feernen Twieg mit dienem tosamentoföhren)\n"
 
 #: remote.c:2250
 #, c-format
 msgid "cannot parse expected object name '%s'"
-msgstr ""
+msgstr "kann verwacht Ding-Naam '%s' nich dörlesen"
 
 #: replace-object.c:21
 #, c-format
 msgid "bad replace ref name: %s"
-msgstr ""
+msgstr "slechter Utwessel-Verwies-Naam: %s"
 
 #: replace-object.c:30
 #, c-format
 msgid "duplicate replace ref: %s"
-msgstr ""
+msgstr "dübbelter Utwessel-Verwies: %s"
 
 #: replace-object.c:73
 #, c-format
 msgid "replace depth too high for object %s"
-msgstr ""
+msgstr "to grote Utwessel-Deepde för Ding %s"
 
 #: rerere.c:217 rerere.c:226 rerere.c:229
 msgid "corrupt MERGE_RR"
-msgstr ""
+msgstr "kaputtes MERGE_RR"
 
 #: rerere.c:264 rerere.c:269
 msgid "unable to write rerere record"
-msgstr ""
+msgstr "kann rerere-Upteken nich schrieven"
 
 #: rerere.c:495
 #, c-format
 msgid "there were errors while writing '%s' (%s)"
-msgstr ""
+msgstr "'t hett Fehlers bi'm Schrieven vun '%s' geven (%s)"
 
 #: rerere.c:498
 #, c-format
 msgid "failed to flush '%s'"
-msgstr ""
+msgstr "'%s' to spölen fehlslagen"
 
 #: rerere.c:503 rerere.c:1039
 #, c-format
 msgid "could not parse conflict hunks in '%s'"
-msgstr ""
+msgstr "kunn Konflikt-Placken in '%s' nich dörlesen"
 
 #: rerere.c:684
 #, c-format
 msgid "failed utime() on '%s'"
-msgstr ""
+msgstr "utime() up '%s' fehlslagen"
 
 #: rerere.c:694
 #, c-format
 msgid "writing '%s' failed"
-msgstr ""
+msgstr "'%s' to schrieven fehlslagen"
 
 #: rerere.c:714
 #, c-format
 msgid "Staged '%s' using previous resolution."
-msgstr ""
+msgstr "Hett '%s' mit eener vörigen Lösen klaarmaakt."
 
 #: rerere.c:753
 #, c-format
 msgid "Recorded resolution for '%s'."
-msgstr ""
+msgstr "Lösen för '%s' uptekent."
 
 #: rerere.c:788
 #, c-format
 msgid "Resolved '%s' using previous resolution."
-msgstr ""
+msgstr "Hett '%s' mit eener vörigen Lösen reselveert."
 
 #: rerere.c:803
 #, c-format
