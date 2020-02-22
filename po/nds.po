@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Git\n"
 "Report-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\n"
 "POT-Creation-Date: 2019-12-30 08:48+0800\n"
-"PO-Revision-Date: 2020-02-22 12:18+0100\n"
+"PO-Revision-Date: 2020-02-22 15:24+0100\n"
 "Last-Translator: Benedikt Straub <benedikt-straub@web.de>\n"
 "Language-Team: Low German\n"
 "Language: nds\n"
@@ -8128,11 +8128,11 @@ msgstr ""
 #: unpack-trees.c:255
 #, c-format
 msgid "Aborting\n"
-msgstr ""
+msgstr "Breckt of\n"
 
 #: unpack-trees.c:317
 msgid "Updating files"
-msgstr ""
+msgstr "Verneeit Dateien"
 
 #: unpack-trees.c:349
 msgid ""
@@ -8143,16 +8143,16 @@ msgstr ""
 
 #: unpack-trees.c:1441
 msgid "Updating index flags"
-msgstr ""
+msgstr "Verneit Index-Marken"
 
 #: urlmatch.c:163
 msgid "invalid URL scheme name or missing '://' suffix"
-msgstr ""
+msgstr "ungültiges URL-Formaat, of '://'-Suffix fehlt"
 
 #: urlmatch.c:187 urlmatch.c:346 urlmatch.c:405
 #, c-format
 msgid "invalid %XX escape sequence"
-msgstr ""
+msgstr "ungültige %XX-Maskeeren-Regel"
 
 #: urlmatch.c:215
 msgid "missing host and scheme is not 'file:'"
@@ -8168,186 +8168,195 @@ msgstr ""
 
 #: urlmatch.c:292 urlmatch.c:303
 msgid "invalid port number"
-msgstr ""
+msgstr "ungültige Port-Tahl"
 
 #: urlmatch.c:371
 msgid "invalid '..' path segment"
-msgstr ""
+msgstr "ungültiger '..'-Padd-Ofdeel"
 
 #: worktree.c:258 builtin/am.c:2084
 #, c-format
 msgid "failed to read '%s'"
-msgstr ""
+msgstr "'%s' to lesen fehlslagen"
 
 #: worktree.c:304
 #, c-format
 msgid "'%s' at main working tree is not the repository directory"
-msgstr ""
+msgstr "'%s' in de Höövd-Warkboom is nich dat Repositoriums-Verteeknis"
 
 #: worktree.c:315
 #, c-format
 msgid "'%s' file does not contain absolute path to the working tree location"
-msgstr ""
+msgstr "Datei '%s' hett nich de kumpleeten Padd tur Warkboom-Stee"
 
 #: worktree.c:327
 #, c-format
 msgid "'%s' does not exist"
-msgstr ""
+msgstr "'%s' gifft dat nich"
 
 #: worktree.c:333
 #, c-format
 msgid "'%s' is not a .git file, error code %d"
-msgstr ""
+msgstr "'%s' is keene .git-Datei, Fehlertahl %d"
 
 #: worktree.c:341
 #, c-format
 msgid "'%s' does not point back to '%s'"
-msgstr ""
+msgstr "'%s' wiest nich torügg up '%s'"
 
 #: wrapper.c:186 wrapper.c:356
 #, c-format
 msgid "could not open '%s' for reading and writing"
-msgstr ""
+msgstr "kunn '%s' nich tum Lesen un Schrieven opmaken"
 
 #: wrapper.c:387 wrapper.c:588
 #, c-format
 msgid "unable to access '%s'"
-msgstr ""
+msgstr "kann nich up '%s' togriepen"
 
 #: wrapper.c:596
 msgid "unable to get current working directory"
-msgstr ""
+msgstr "kann stedenwies Warkverteeknis nich utfinnen"
 
 #: wt-status.c:158
 msgid "Unmerged paths:"
-msgstr ""
+msgstr "Nich tosamenföögte Padden:"
 
 #: wt-status.c:187 wt-status.c:219
 msgid "  (use \"git restore --staged <file>...\" to unstage)"
-msgstr ""
+msgstr "  (bruuk \"git restore --staged <Datei>...\" tum un-klaarmaken)"
 
 #: wt-status.c:190 wt-status.c:222
 #, c-format
 msgid "  (use \"git restore --source=%s --staged <file>...\" to unstage)"
 msgstr ""
+"  (bruuk \"git restore --source=%s --staged <Datei>...\" tum un-klaarmaken)"
 
 #: wt-status.c:193 wt-status.c:225
 msgid "  (use \"git rm --cached <file>...\" to unstage)"
-msgstr ""
+msgstr "  (bruuk \"git rm --cached <Datei>...\" tum un-klaarmaken)"
 
 #: wt-status.c:197
 msgid "  (use \"git add <file>...\" to mark resolution)"
-msgstr ""
+msgstr "  (bruuk \"git add <Datei>...\", um Reselverens to markeren)"
 
 #: wt-status.c:199 wt-status.c:203
 msgid "  (use \"git add/rm <file>...\" as appropriate to mark resolution)"
 msgstr ""
+"  (bruuk \"git add/rm <Datei>...\", as dat passt, um Reselverens to markeren)"
 
 #: wt-status.c:201
 msgid "  (use \"git rm <file>...\" to mark resolution)"
-msgstr ""
+msgstr "  (bruuk \"git rm <Datei>...\", um Reselverens to markeren)"
 
 #: wt-status.c:211 wt-status.c:1074
 msgid "Changes to be committed:"
-msgstr ""
+msgstr "Ännerns tum Kommitteeren:"
 
 #: wt-status.c:234 wt-status.c:1083
 msgid "Changes not staged for commit:"
-msgstr ""
+msgstr "Nich tum Kommitteeren klaarmaakt Ännerns:"
 
 #: wt-status.c:238
 msgid "  (use \"git add <file>...\" to update what will be committed)"
 msgstr ""
+"  (bruuk \"git add <Datei>...\", um to vernejen, wat kommiteert worden sall)"
 
 #: wt-status.c:240
 msgid "  (use \"git add/rm <file>...\" to update what will be committed)"
 msgstr ""
+"  (bruuk \"git add/rm <Datei>...\", um to vernejen, wat kommiteert worden "
+"sall)"
 
 #: wt-status.c:241
 msgid ""
 "  (use \"git restore <file>...\" to discard changes in working directory)"
 msgstr ""
+"  (bruuk \"git restore <Datei>...\", um Ännerns im Warkverteeknis to lösken)"
 
 #: wt-status.c:243
 msgid "  (commit or discard the untracked or modified content in submodules)"
 msgstr ""
+"  (unverwacht of ännert Inhollen in Unnermoduulen kommitteeren of lösken)"
 
 #: wt-status.c:254
 #, c-format
 msgid "  (use \"git %s <file>...\" to include in what will be committed)"
 msgstr ""
+"  (bruuk \"git %s <Datei>...\", um 't in dat intobinnen, wat kommitteert "
+"worden sall)"
 
 #: wt-status.c:268
 msgid "both deleted:"
-msgstr ""
+msgstr "beide lösket:"
 
 #: wt-status.c:270
 msgid "added by us:"
-msgstr ""
+msgstr "vun uns hentoföögt:"
 
 #: wt-status.c:272
 msgid "deleted by them:"
-msgstr ""
+msgstr "vun deesen lösket:"
 
 #: wt-status.c:274
 msgid "added by them:"
-msgstr ""
+msgstr "vun deesen hentoföögt:"
 
 #: wt-status.c:276
 msgid "deleted by us:"
-msgstr ""
+msgstr "vun uns lösket:"
 
 #: wt-status.c:278
 msgid "both added:"
-msgstr ""
+msgstr "beide hentoföögt:"
 
 #: wt-status.c:280
 msgid "both modified:"
-msgstr ""
+msgstr "beide ännert:"
 
 #: wt-status.c:290
 msgid "new file:"
-msgstr ""
+msgstr "neje Datei:"
 
 #: wt-status.c:292
 msgid "copied:"
-msgstr ""
+msgstr "kopeert:"
 
 #: wt-status.c:294
 msgid "deleted:"
-msgstr ""
+msgstr "lösket:"
 
 #: wt-status.c:296
 msgid "modified:"
-msgstr ""
+msgstr "ännert:"
 
 #: wt-status.c:298
 msgid "renamed:"
-msgstr ""
+msgstr "umbenöömt:"
 
 #: wt-status.c:300
 msgid "typechange:"
-msgstr ""
+msgstr "Aard ännert:"
 
 #: wt-status.c:302
 msgid "unknown:"
-msgstr ""
+msgstr "unbekannt:"
 
 #: wt-status.c:304
 msgid "unmerged:"
-msgstr ""
+msgstr "nich tosamenföögt:"
 
 #: wt-status.c:384
 msgid "new commits, "
-msgstr ""
+msgstr "neje Kommitteerens, "
 
 #: wt-status.c:386
 msgid "modified content, "
-msgstr ""
+msgstr "ännert Inhollen, "
 
 #: wt-status.c:388
 msgid "untracked content, "
-msgstr ""
+msgstr "nich överwacht Inholl, "
 
 #: wt-status.c:906
 #, c-format
@@ -8358,17 +8367,19 @@ msgstr[1] ""
 
 #: wt-status.c:938
 msgid "Submodules changed but not updated:"
-msgstr ""
+msgstr "Unnermoduulen ännert, aver nich verneeit:"
 
 #: wt-status.c:940
 msgid "Submodule changes to be committed:"
-msgstr ""
+msgstr "Unnermoduul-Ännerns tum Kommitteeren:"
 
 #: wt-status.c:1022
 msgid ""
 "Do not modify or remove the line above.\n"
 "Everything below it will be ignored."
 msgstr ""
+"Änner of löske de boven Rieg nich.\n"
+"Alles daarunner word ignoreert."
 
 #: wt-status.c:1114
 #, c-format
@@ -8380,23 +8391,23 @@ msgstr ""
 
 #: wt-status.c:1144
 msgid "You have unmerged paths."
-msgstr ""
+msgstr "Du hest nich tosamenföögte Padden."
 
 #: wt-status.c:1147
 msgid "  (fix conflicts and run \"git commit\")"
-msgstr ""
+msgstr "  (help de Konflikten of un bruuk dann \"git commit\")"
 
 #: wt-status.c:1149
 msgid "  (use \"git merge --abort\" to abort the merge)"
-msgstr ""
+msgstr "  (bruuk \"git merge --abort\", um dat Tosamenföhren oftobreken)"
 
 #: wt-status.c:1153
 msgid "All conflicts fixed but you are still merging."
-msgstr ""
+msgstr "All Konflikten ofholpen, aver du büst noch bi'm Tosamenföhren."
 
 #: wt-status.c:1156
 msgid "  (use \"git commit\" to conclude merge)"
-msgstr ""
+msgstr "  (bruuk \"git commit\", um dat Kommitteeren kumpleet to maken)"
 
 #: wt-status.c:1165
 msgid "You are in the middle of an am session."
@@ -8404,182 +8415,189 @@ msgstr ""
 
 #: wt-status.c:1168
 msgid "The current patch is empty."
-msgstr ""
+msgstr "De stedenwies Flick is leeg."
 
 #: wt-status.c:1172
 msgid "  (fix conflicts and then run \"git am --continue\")"
-msgstr ""
+msgstr "  (help de Konflikten of un bruuk dann \"git am --continue\")"
 
 #: wt-status.c:1174
 msgid "  (use \"git am --skip\" to skip this patch)"
-msgstr ""
+msgstr "  (bruuk \"git am --skip\", um deesen Flick to överhüppen)"
 
 #: wt-status.c:1176
 msgid "  (use \"git am --abort\" to restore the original branch)"
-msgstr ""
+msgstr "  (bruuk \"git am --abort\", um de Twieg weer as vörher weddertohalen)"
 
 #: wt-status.c:1309
 msgid "git-rebase-todo is missing."
-msgstr ""
+msgstr "git-rebase-todo fehlt."
 
 #: wt-status.c:1311
 msgid "No commands done."
-msgstr ""
+msgstr "Keene Befehlen daan."
 
 #: wt-status.c:1314
 #, c-format
 msgid "Last command done (%d command done):"
 msgid_plural "Last commands done (%d commands done):"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Tolest daan Befehl (%d Befehl daan):"
+msgstr[1] "Tolest daan Befehlen (%d Befehlen daan):"
 
 #: wt-status.c:1325
 #, c-format
 msgid "  (see more in file %s)"
-msgstr ""
+msgstr "  (mehr staht in Datei %s)"
 
 #: wt-status.c:1330
 msgid "No commands remaining."
-msgstr ""
+msgstr "Keene Befehlen över."
 
 #: wt-status.c:1333
 #, c-format
 msgid "Next command to do (%d remaining command):"
 msgid_plural "Next commands to do (%d remaining commands):"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Anner Befehl tum Doon (%d Befehl över):"
+msgstr[1] "Anner Befehlen tum Doon (%d Befehlen över):"
 
 #: wt-status.c:1341
 msgid "  (use \"git rebase --edit-todo\" to view and edit)"
-msgstr ""
+msgstr "  (bruuk \"git rebase --edit-todo\", um 't antokieken un to bewarken)"
 
 #: wt-status.c:1353
 #, c-format
 msgid "You are currently rebasing branch '%s' on '%s'."
-msgstr ""
+msgstr "Du baseerst jüüst Twieg '%s' na '%s' um."
 
 #: wt-status.c:1358
 msgid "You are currently rebasing."
-msgstr ""
+msgstr "Du baseerst jüüst um."
 
 #: wt-status.c:1371
 msgid "  (fix conflicts and then run \"git rebase --continue\")"
-msgstr ""
+msgstr "  (help de Konflikten of un bruuk dann \"git rebase --continue\")"
 
 #: wt-status.c:1373
 msgid "  (use \"git rebase --skip\" to skip this patch)"
-msgstr ""
+msgstr "  (bruuk \"git rebase --skip\", um deesen Flick to överhüppen)"
 
 #: wt-status.c:1375
 msgid "  (use \"git rebase --abort\" to check out the original branch)"
-msgstr ""
+msgstr "  (bruuk \"git rebase --abort\", um de Twieg as vörher uttoscheckeren)"
 
 #: wt-status.c:1382
 msgid "  (all conflicts fixed: run \"git rebase --continue\")"
-msgstr ""
+msgstr "  (all Konflikten ofhulpen: bruuk nu \"git rebase --continue\")"
 
 #: wt-status.c:1386
 #, c-format
 msgid ""
 "You are currently splitting a commit while rebasing branch '%s' on '%s'."
 msgstr ""
+"Du büst jüüst daarbi, een Kommitteeren oftodeelen, as du Twieg '%s' na '%s' "
+"umbaseerst."
 
 #: wt-status.c:1391
 msgid "You are currently splitting a commit during a rebase."
-msgstr ""
+msgstr "Du büst jüüst daarbi, bi'm Umbaseeren een Kommitteeren oftodeelen."
 
 #: wt-status.c:1394
 msgid "  (Once your working directory is clean, run \"git rebase --continue\")"
-msgstr ""
+msgstr "  (Wenn dien Warkboom dann schier is, bruuk \"git rebase --continue\")"
 
 #: wt-status.c:1398
 #, c-format
 msgid "You are currently editing a commit while rebasing branch '%s' on '%s'."
 msgstr ""
+"Du büst jüüst daarbi, een Kommitteeren to bewarken, as du Twieg '%s' na '%s' "
+"umbaseerst."
 
 #: wt-status.c:1403
 msgid "You are currently editing a commit during a rebase."
-msgstr ""
+msgstr "Du büst jüüst daarbi, bi'm Umbaseeren een Kommitteeren to bewarken."
 
 #: wt-status.c:1406
 msgid "  (use \"git commit --amend\" to amend the current commit)"
 msgstr ""
+"  (bruuk \"git commit --amend\", um de stedenwies Kommitteeren uttobetern)"
 
 #: wt-status.c:1408
 msgid ""
 "  (use \"git rebase --continue\" once you are satisfied with your changes)"
 msgstr ""
+"  (bruuk \"git rebase --continue\", wenn du mit dienen Änners tofree büst)"
 
 #: wt-status.c:1419
 msgid "Cherry-pick currently in progress."
-msgstr ""
+msgstr "Jüüst bi'm enkelt Utkören."
 
 #: wt-status.c:1422
 #, c-format
 msgid "You are currently cherry-picking commit %s."
-msgstr ""
+msgstr "Du köörst jüüst bi Kommitteeren %s enkelt ut."
 
 #: wt-status.c:1429
 msgid "  (fix conflicts and run \"git cherry-pick --continue\")"
-msgstr ""
+msgstr "  (help de Konflikten of un bruuk dann \"git cherry-pick --continue\")"
 
 #: wt-status.c:1432
 msgid "  (run \"git cherry-pick --continue\" to continue)"
-msgstr ""
+msgstr "  (bruuk \"git cherry-pick --continue\" tum Wiedermaken)"
 
 #: wt-status.c:1435
 msgid "  (all conflicts fixed: run \"git cherry-pick --continue\")"
-msgstr ""
+msgstr "  (all Konflikten ofhulpen: bruuk nu \"git cherry-pick --continue\")"
 
 #: wt-status.c:1437
 msgid "  (use \"git cherry-pick --skip\" to skip this patch)"
-msgstr ""
+msgstr "  (bruuk \"git cherry-pick --skip\", um deesen Flick to överhüppen)"
 
 #: wt-status.c:1439
 msgid "  (use \"git cherry-pick --abort\" to cancel the cherry-pick operation)"
 msgstr ""
+"  (bruuk \"git cherry-pick --abort\", um dat enkelt Utkören oftobreken)"
 
 #: wt-status.c:1449
 msgid "Revert currently in progress."
-msgstr ""
+msgstr "Jüüst bi'm Torüggsetten."
 
 #: wt-status.c:1452
 #, c-format
 msgid "You are currently reverting commit %s."
-msgstr ""
+msgstr "Du büst jüüst bi'm Torüggsetten vun Kommitteeren %s."
 
 #: wt-status.c:1458
 msgid "  (fix conflicts and run \"git revert --continue\")"
-msgstr ""
+msgstr "  (help de Konflikten of un bruuk dann \"git revert --continue\")"
 
 #: wt-status.c:1461
 msgid "  (run \"git revert --continue\" to continue)"
-msgstr ""
+msgstr "  (bruuk \"git revert --continue\" tum Wiedermaken)"
 
 #: wt-status.c:1464
 msgid "  (all conflicts fixed: run \"git revert --continue\")"
-msgstr ""
+msgstr "  (all Konflikten ofhulpen: bruuk nu \"git revert --continue\")"
 
 #: wt-status.c:1466
 msgid "  (use \"git revert --skip\" to skip this patch)"
-msgstr ""
+msgstr "  (bruuk \"git revert --skip\", um deesen Flick to överhüppen)"
 
 #: wt-status.c:1468
 msgid "  (use \"git revert --abort\" to cancel the revert operation)"
-msgstr ""
+msgstr "  (bruuk \"git revert --abort\", um dat Torüggsetten oftobreken)"
 
 #: wt-status.c:1478
 #, c-format
 msgid "You are currently bisecting, started from branch '%s'."
-msgstr ""
+msgstr "Di büst jüüst bi'm Halberen vun Twieg '%s' ut."
 
 #: wt-status.c:1482
 msgid "You are currently bisecting."
-msgstr ""
+msgstr "Di büst jüüst bi'm Halberen."
 
 #: wt-status.c:1485
 msgid "  (use \"git bisect reset\" to get back to the original branch)"
-msgstr ""
+msgstr "  (bruuk \"git bisect reset\", um to de vörigen Twieg torüggtogahn)"
 
 #: wt-status.c:1694
 msgid "On branch "
@@ -8620,6 +8638,10 @@ msgid ""
 "may speed it up, but you have to be careful not to forget to add\n"
 "new files yourself (see 'git help status')."
 msgstr ""
+"'t hett %.2f Sekünnen düürt, nich överwachte Dateien uptotellen.\n"
+"Mit 'status -uno' gaht dat wull fixer, aver dann muttst du\n"
+"uppassen, dat du nich vergettst, elkeen neje Datei sülvst\n"
+"hentotofögen (kiek ok na 'git help status')."
 
 #: wt-status.c:1757
 #, c-format
@@ -8727,86 +8749,87 @@ msgstr "'%s' to unverwiesen fehlslagen"
 
 #: builtin/add.c:26
 msgid "git add [<options>] [--] <pathspec>..."
-msgstr ""
+msgstr "git add [<Instellens>] [--] <Paddangaav>..."
 
 #: builtin/add.c:87
 #, c-format
 msgid "unexpected diff status %c"
-msgstr ""
+msgstr "unverwachter Diff-Tostand %c"
 
 #: builtin/add.c:92 builtin/commit.c:288
 msgid "updating files failed"
-msgstr ""
+msgstr "Dateien to vernejen fehlslagen"
 
 #: builtin/add.c:102
 #, c-format
 msgid "remove '%s'\n"
-msgstr ""
+msgstr "'%s' lösken\n"
 
 #: builtin/add.c:177
 msgid "Unstaged changes after refreshing the index:"
-msgstr ""
+msgstr "Nich klaarmaakt Ännerns, nadeem de Index verneeit word:"
 
 #: builtin/add.c:252 builtin/rev-parse.c:899
 msgid "Could not read the index"
-msgstr ""
+msgstr "Kunn de Index nich lesen"
 
 #: builtin/add.c:263
 #, c-format
 msgid "Could not open '%s' for writing."
-msgstr ""
+msgstr "Kunn '%s' nich tum Schrieven opmaken."
 
 #: builtin/add.c:267
 msgid "Could not write patch"
-msgstr ""
+msgstr "Kunn Flick nich schrieven"
 
 #: builtin/add.c:270
 msgid "editing patch failed"
-msgstr ""
+msgstr "Flick to bewarken fehlslagen"
 
 #: builtin/add.c:273
 #, c-format
 msgid "Could not stat '%s'"
-msgstr ""
+msgstr "Kunn '%s' nich upfaten"
 
 #: builtin/add.c:275
 msgid "Empty patch. Aborted."
-msgstr ""
+msgstr "Leger Flick. Breckt of."
 
 #: builtin/add.c:280
 #, c-format
 msgid "Could not apply '%s'"
-msgstr ""
+msgstr "Kunn '%s' nich anwennen"
 
 #: builtin/add.c:288
 msgid "The following paths are ignored by one of your .gitignore files:\n"
 msgstr ""
+"Deese Padden worden vun eener vun dienen -gitignore-Dateien ignoreert:\n"
 
 #: builtin/add.c:308 builtin/clean.c:910 builtin/fetch.c:163 builtin/mv.c:124
 #: builtin/prune-packed.c:56 builtin/pull.c:223 builtin/push.c:548
 #: builtin/remote.c:1344 builtin/rm.c:241 builtin/send-pack.c:165
 msgid "dry run"
-msgstr ""
+msgstr "leeg lopen"
 
 #: builtin/add.c:311
 msgid "interactive picking"
-msgstr ""
+msgstr "aktiv Utkören"
 
 #: builtin/add.c:312 builtin/checkout.c:1482 builtin/reset.c:307
 msgid "select hunks interactively"
-msgstr ""
+msgstr "Placken aktiv utkören"
 
 #: builtin/add.c:313
 msgid "edit current diff and apply"
-msgstr ""
+msgstr "stedenwies Diff bewarken un anwennen"
 
 #: builtin/add.c:314
 msgid "allow adding otherwise ignored files"
-msgstr ""
+msgstr "verlöven, sünst ignoreerte Dateien hentotofögen"
 
 #: builtin/add.c:315
 msgid "update tracked files"
-msgstr ""
+msgstr "överwachte Dateien vernejen"
 
 #: builtin/add.c:316
 msgid "renormalize EOL of tracked files (implies -u)"
@@ -14056,27 +14079,27 @@ msgstr ""
 
 #: builtin/index-pack.c:919 builtin/index-pack.c:950
 msgid "failed to apply delta"
-msgstr ""
+msgstr "Delta antowennen fehlslagen"
 
 #: builtin/index-pack.c:1118
 msgid "Receiving objects"
-msgstr ""
+msgstr "Kriggt Dingen"
 
 #: builtin/index-pack.c:1118
 msgid "Indexing objects"
-msgstr ""
+msgstr "Indizeert Dingen"
 
 #: builtin/index-pack.c:1152
 msgid "pack is corrupted (SHA1 mismatch)"
-msgstr ""
+msgstr "Packje is kaputt (SHA1 passt nich)"
 
 #: builtin/index-pack.c:1157
 msgid "cannot fstat packfile"
-msgstr ""
+msgstr "kann fstat nich up Packje-Datei anwennen"
 
 #: builtin/index-pack.c:1160
 msgid "pack has junk at the end"
-msgstr ""
+msgstr "Packje ennt mit Strunt"
 
 #: builtin/index-pack.c:1172
 msgid "confusion beyond insanity in parse_pack_objects()"
@@ -14084,12 +14107,12 @@ msgstr ""
 
 #: builtin/index-pack.c:1195
 msgid "Resolving deltas"
-msgstr ""
+msgstr "Lösst Deltas up"
 
 #: builtin/index-pack.c:1205 builtin/pack-objects.c:2481
 #, c-format
 msgid "unable to create thread: %s"
-msgstr ""
+msgstr "kunn Drahd nich maken: %s"
 
 #: builtin/index-pack.c:1246
 msgid "confusion beyond insanity"
@@ -14099,152 +14122,152 @@ msgstr ""
 #, c-format
 msgid "completed with %d local object"
 msgid_plural "completed with %d local objects"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "mit %d stedenwies Ding kumpleet"
+msgstr[1] "mit %d stedenwies Dingen kumpleet"
 
 #: builtin/index-pack.c:1264
 #, c-format
 msgid "Unexpected tail checksum for %s (disk corruption?)"
-msgstr ""
+msgstr "Unverwacht Steert-Prüfsumm för %s (Plaat kaputt?)"
 
 #: builtin/index-pack.c:1268
 #, c-format
 msgid "pack has %d unresolved delta"
 msgid_plural "pack has %d unresolved deltas"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Packje hett %d nich reselveert Delta"
+msgstr[1] "Packje hett %d nich reselveerte Deltas"
 
 #: builtin/index-pack.c:1292
 #, c-format
 msgid "unable to deflate appended object (%d)"
-msgstr ""
+msgstr "kann anhangen Ding nich oflaten (%d)"
 
 #: builtin/index-pack.c:1388
 #, c-format
 msgid "local object %s is corrupt"
-msgstr ""
+msgstr "stedenwies Ding %s is kaputt"
 
 #: builtin/index-pack.c:1402
 #, c-format
 msgid "packfile name '%s' does not end with '.pack'"
-msgstr ""
+msgstr "Packje-Datei-Naam '%s' ennt nich mit '.pack'"
 
 #: builtin/index-pack.c:1427
 #, c-format
 msgid "cannot write %s file '%s'"
-msgstr ""
+msgstr "kann %s-Datei '%s' nich schrieven"
 
 #: builtin/index-pack.c:1435
 #, c-format
 msgid "cannot close written %s file '%s'"
-msgstr ""
+msgstr "kann schreven %s-Datei '%s' nich dichtmaken"
 
 #: builtin/index-pack.c:1459
 msgid "error while closing pack file"
-msgstr ""
+msgstr "Fehler bi'm Dichtmaken vun de Packje-Datei"
 
 #: builtin/index-pack.c:1473
 msgid "cannot store pack file"
-msgstr ""
+msgstr "kann Packje-Datei nich lagern"
 
 #: builtin/index-pack.c:1481
 msgid "cannot store index file"
-msgstr ""
+msgstr "kann Index-Datei nich lagern"
 
 #: builtin/index-pack.c:1525 builtin/pack-objects.c:2716
 #, c-format
 msgid "bad pack.indexversion=%<PRIu32>"
-msgstr ""
+msgstr "slechte pack.indexversion=%<PRIu32>"
 
 #: builtin/index-pack.c:1593
 #, c-format
 msgid "Cannot open existing pack file '%s'"
-msgstr ""
+msgstr "Kann Packje-Datei '%s', wat 't gifft, nich opmaken"
 
 #: builtin/index-pack.c:1595
 #, c-format
 msgid "Cannot open existing pack idx file for '%s'"
-msgstr ""
+msgstr "Kann Packje-Index-Datei för '%s', wat 't gifft, nich opmaken"
 
 #: builtin/index-pack.c:1643
 #, c-format
 msgid "non delta: %d object"
 msgid_plural "non delta: %d objects"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "nich-Delta: %d Ding"
+msgstr[1] "nich-Delta: %d Dingen"
 
 #: builtin/index-pack.c:1650
 #, c-format
 msgid "chain length = %d: %lu object"
 msgid_plural "chain length = %d: %lu objects"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Kettenlängde = %d: %lu Ding"
+msgstr[1] "Kettenlängde = %d: %lu Dingen"
 
 #: builtin/index-pack.c:1689
 msgid "Cannot come back to cwd"
-msgstr ""
+msgstr "kann nich torügg to CWD komen"
 
 #: builtin/index-pack.c:1738 builtin/index-pack.c:1741
 #: builtin/index-pack.c:1757 builtin/index-pack.c:1761
 #, c-format
 msgid "bad %s"
-msgstr ""
+msgstr "slechtes %s"
 
 #: builtin/index-pack.c:1777
 msgid "--fix-thin cannot be used without --stdin"
-msgstr ""
+msgstr "--fix-thin kann nich sünner --stdin bruukt worden"
 
 #: builtin/index-pack.c:1779
 msgid "--stdin requires a git repository"
-msgstr ""
+msgstr "--stdin bruukt een Git-Repositorium"
 
 #: builtin/index-pack.c:1785
 msgid "--verify with no packfile name given"
-msgstr ""
+msgstr "--verfify sünner Packje-Datei-Naam geven"
 
 #: builtin/index-pack.c:1833 builtin/unpack-objects.c:581
 msgid "fsck error in pack objects"
-msgstr ""
+msgstr "fsck-Fehler in Packje-Dingen"
 
 #: builtin/init-db.c:61
 #, c-format
 msgid "cannot stat template '%s'"
-msgstr ""
+msgstr "kann Vörlaag '%s' nich upfaten"
 
 #: builtin/init-db.c:66
 #, c-format
 msgid "cannot opendir '%s'"
-msgstr ""
+msgstr "kann Verteeknis '%s' nich opmaken"
 
 #: builtin/init-db.c:78
 #, c-format
 msgid "cannot readlink '%s'"
-msgstr ""
+msgstr "kann Verwies '%s' nich lesen"
 
 #: builtin/init-db.c:80
 #, c-format
 msgid "cannot symlink '%s' '%s'"
-msgstr ""
+msgstr "kann symbolisk Verwies vun '%s' na '%s' nich maken"
 
 #: builtin/init-db.c:86
 #, c-format
 msgid "cannot copy '%s' to '%s'"
-msgstr ""
+msgstr "kunn '%s' nich na '%s' koperen"
 
 #: builtin/init-db.c:90
 #, c-format
 msgid "ignoring template %s"
-msgstr ""
+msgstr "ignoreert Vörlaag %s"
 
 #: builtin/init-db.c:121
 #, c-format
 msgid "templates not found in %s"
-msgstr ""
+msgstr "Vörlagen in %s nich funnen"
 
 #: builtin/init-db.c:136
 #, c-format
 msgid "not copying templates from '%s': %s"
-msgstr ""
+msgstr "kopeert keene Vörlagen ut '%s': %s"
 
 #: builtin/init-db.c:334
 #, c-format
